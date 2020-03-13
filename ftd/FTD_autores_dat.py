@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 TRAIN_DATA_AUTOR_1E = [
 ("SOLANGE DOS SANTOS UTUARI FERRARI",{"entities":[(0,33,'AUTOR')]}),
 ("DANIELA LIBANEO",{"entities":[(0,15,'AUTOR')]}),
@@ -6595,5 +6597,5 @@ TRAIN_DATA_AUTOR_1E = [
 ("CAROLINE MINORELLI",{"entities":[(0,18,'AUTOR')]}),
 ("DANIELA PASSOS",{"entities":[(0,14,'AUTOR')]}),
 ("RITA CARELLI",{"entities":[(0,12,'AUTOR')]}),
-("MARIA ISABEL SILVA",{"entities":[(0,18,'AUTOR')]}),
+("MARIA ISABEL SILVA",{"entities":[(0,18,'AUTOR')]})
 ]

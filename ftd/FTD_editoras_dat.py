@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 TRAIN_DATA_EDITORA_1E = [
 ("ATICA",{"entities":[(0,5,'EDITORA')]}),
 ("ALTA BOOKS",{"entities":[(0,10,'EDITORA')]}),
@@ -1600,5 +1602,5 @@ TRAIN_DATA_EDITORA_1E = [
 ("KAIROS",{"entities":[(0,6,'EDITORA')]}),
 ("OFICINA DAS FINANÇAS - FTD",{"entities":[(0,26,'EDITORA')]}),
 ("PROGRAMA COMPASSO",{"entities":[(0,17,'EDITORA')]}),
-("COGNA",{"entities":[(0,5,'EDITORA')]}),
+("COGNA",{"entities":[(0,5,'EDITORA')]})
 ]

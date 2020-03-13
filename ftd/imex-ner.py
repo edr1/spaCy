@@ -133,7 +133,7 @@ def testPTBR():
 if __name__ == "__main__":
     #testENUS()
     #testPTBR()
-    current_path=os.getcwd()+"/ftd/imex-ner-1"
+    current_path=os.getcwd()+"/imex-ner-1"
     print(current_path)
     trainingNERModel(TRAIN_DATA_AUTOR_1E, None, current_path, 100)
     trainingNERModel(TRAIN_DATA_DISCIPLINA_1E, current_path, current_path, 100)

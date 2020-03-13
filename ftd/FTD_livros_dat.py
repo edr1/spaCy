@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 TRAIN_DATA_LIVRO_1E = [
 ("02 MATERIAIS O NATURAL E O FABRICADO",{"entities":[(0,36,'LIVRO')]}),
 ("1000 LUGARES PARA CONHECER ANTES DE MORRER",{"entities":[(0,42,'LIVRO')]}),

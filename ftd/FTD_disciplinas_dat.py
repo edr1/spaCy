@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 TRAIN_DATA_DISCIPLINA_1E = [
 ("ADMINISTRACAO",{"entities":[(0,13,'DISCIPLINA')]}),
 ("ALEMAO",{"entities":[(0,6,'DISCIPLINA')]}),
@@ -53,5 +55,5 @@ TRAIN_DATA_DISCIPLINA_1E = [
 ("REDACAO",{"entities":[(0,7,'DISCIPLINA')]}),
 ("RELIGIAO",{"entities":[(0,8,'DISCIPLINA')]}),
 ("Sociologia",{"entities":[(0,10,'DISCIPLINA')]}),
-("SOCIOLOGIA",{"entities":[(0,10,'DISCIPLINA')]}),
+("SOCIOLOGIA",{"entities":[(0,10,'DISCIPLINA')]})
 ]
