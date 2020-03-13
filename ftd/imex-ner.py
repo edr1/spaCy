@@ -47,7 +47,7 @@ def trainingNERModel (train_data=None, model=None, output_dir=None, n_iter=100):
     pipe_exceptions = ["ner", "trf_wordpiecer", "trf_tok2vec"]
     other_pipes = [pipe for pipe in nlp.pipe_names if pipe not in pipe_exceptions]
     with nlp.disable_pipes(*other_pipes):  # only train NER
-        # reset and initialize the weights randomly – but only if we're
+        # reset and initialize the weights randomly but only if we're
         # training a new model
         #if model is None:
         #    nlp.begin_training()
@@ -119,10 +119,6 @@ def testPTBR():
     #nlp = spacy.load("pt_core_news_sm")
     nlp = spacy.load("/home/erickj/Documents/data_f/CODE/spaCy/examples/training/model_imex_pt_1")
     doc = nlp("SAT: DICIONARIO ESPANHOL FALSOS COGNATOS ESPANHOL")
-    #doc = nlp("EDE: 1 LIVRO COL PARAISO DA CRIANCA LÍNGUA PORTUGUESA")
-    #doc = nlp("LÍNGUA PORTUGUESA")
-    #doc = nlp("SAT")
-    #doc = nlp("1 LIVRO NAO ESPECIFICADO 6º ANO")
     #doc = nlp("João falou pra Maria")
     for token in doc:
         print(token.text.ljust(15,' ')+"\t"+token.lemma_+"\t"+token.pos_+"\t"+(token.tag_+"["+str(spacy.explain(token.tag_))+"]").ljust(50,' ')+"\t\t"+token.dep_.ljust(20,' ')+"\t"+token.shape_+"\t"+str(token.is_alpha)+"\t"+str(token.is_stop))
