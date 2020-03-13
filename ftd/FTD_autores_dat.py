@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 TRAIN_DATA_AUTOR_1E = [
 ("SOLANGE DOS SANTOS UTUARI FERRARI",{"entities":[(0,33,'AUTOR')]}),
 ("DANIELA LIBANEO",{"entities":[(0,15,'AUTOR')]}),

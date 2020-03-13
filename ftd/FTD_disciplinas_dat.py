@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 TRAIN_DATA_DISCIPLINA_1E = [
 ("ADMINISTRACAO",{"entities":[(0,13,'DISCIPLINA')]}),
 ("ALEMAO",{"entities":[(0,6,'DISCIPLINA')]}),

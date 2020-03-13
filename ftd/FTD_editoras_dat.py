@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 TRAIN_DATA_EDITORA_1E = [
 ("ATICA",{"entities":[(0,5,'EDITORA')]}),
 ("ALTA BOOKS",{"entities":[(0,10,'EDITORA')]}),
