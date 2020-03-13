@@ -44,20 +44,11 @@ LABEL = "ANIMAL"
 # model might learn the new type, but "forget" what it previously knew.
 # https://explosion.ai/blog/pseudo-rehearsal-catastrophic-forgetting
 TRAIN_DATA = [
-    (
-        "Horses are too tall and they pretend to care about your feelings",
-        {"entities": [(0, 6, LABEL)]},
-    ),
+    ("Horses are too tall and they pretend to care about your feelings", {"entities": [(0, 6, LABEL)]},),
     ("Do they bite?", {"entities": []}),
-    (
-        "horses are too tall and they pretend to care about your feelings",
-        {"entities": [(0, 6, LABEL)]},
-    ),
+    ("horses are too tall and they pretend to care about your feelings", {"entities": [(0, 6, LABEL)]},),
     ("horses pretend to care about your feelings", {"entities": [(0, 6, LABEL)]}),
-    (
-        "they pretend to care about your feelings, those horses",
-        {"entities": [(48, 54, LABEL)]},
-    ),
+    ("they pretend to care about your feelings, those horses",{"entities": [(48, 54, LABEL)]},),
     ("horses?", {"entities": [(0, 6, LABEL)]}),
 ]
 
