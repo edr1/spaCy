@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 import spacy
 from spacy import displacy
 from spacy.tokens import Span
@@ -7,6 +8,7 @@ from spacy.util import minibatch, compounding
 from pathlib import Path
 import plac
 import os
+
 
 from FTD_autores_dat import TRAIN_DATA_AUTOR_1E
 from FTD_disciplinas_dat import TRAIN_DATA_DISCIPLINA_1E
