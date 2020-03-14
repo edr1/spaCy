@@ -1,5 +1,6 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+#!/usr/bin/env python
+# coding: utf8
+from __future__ import unicode_literals, print_function
 import spacy
 from spacy import displacy
 from spacy.tokens import Span
