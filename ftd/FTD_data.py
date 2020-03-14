@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# coding: utf8
+from __future__ import unicode_literals, print_function
+
 TRAIN_DATA_ALL = [
 ("SOLANGE DOS SANTOS UTUARI FERRARI",{"entities":[(0,33,'AUTOR')]}),
 ("DANIELA LIBANEO",{"entities":[(0,15,'AUTOR')]}),
