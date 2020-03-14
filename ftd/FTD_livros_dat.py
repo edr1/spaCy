@@ -1,5 +1,6 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+#!/usr/bin/env python
+# coding: utf8
+from __future__ import unicode_literals, print_function
 
 TRAIN_DATA_LIVRO_1E = [
 ("02 MATERIAIS O NATURAL E O FABRICADO",{"entities":[(0,36,'LIVRO')]}),

@@ -1,5 +1,6 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+#!/usr/bin/env python
+# coding: utf8
+from __future__ import unicode_literals, print_function
 
 TRAIN_DATA_EDITORA_1E = [
 ("ATICA",{"entities":[(0,5,'EDITORA')]}),
