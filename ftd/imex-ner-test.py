@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf8
 from __future__ import unicode_literals, print_function
+import plac
 import spacy
 from spacy import displacy
 from spacy.tokens import Span
@@ -8,7 +9,7 @@ import random
 from spacy.util import minibatch, compounding
 from pathlib import Path
 import os
-from FTD_data import TRAIN_DATA_ALL
+from FTD_data_test import TRAIN_DATA_ALL
 
 
 @plac.annotations(
@@ -17,8 +18,10 @@ from FTD_data import TRAIN_DATA_ALL
 def main(model=None):
     print("--------------- PTBT ------------------------")
     if model is None:
-        model = "pt_core_news_sm"
+        #model = "pt_core_news_sm"
+	model = "/home/centos/spaCy/ftd/imex-ner-2"
 
+    print("testing with ",model)
     nlp = spacy.load(model)
 
     for text, _ in TRAIN_DATA_ALL:

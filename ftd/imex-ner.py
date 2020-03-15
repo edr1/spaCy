@@ -90,7 +90,7 @@ def trainingNERModel (train_data=None, model=None, output_dir=None, n_iter=100):
 
 
 if __name__ == "__main__":
-    current_path=os.getcwd()+"/imex-ner-2"
+    current_path=os.getcwd()+"/imex-ner-1m"
     print(current_path)
     trainingNERModel(TRAIN_DATA_ALL_1M, None, current_path, 100)
 

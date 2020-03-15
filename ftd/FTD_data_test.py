@@ -1,0 +1,43 @@
+#!/usr/bin/env python
+# coding: utf8
+from __future__ import unicode_literals, print_function
+
+TRAIN_DATA_ALL = [
+("SOLANGE DOS SANTOS UTUARI FERRARI",{"entities":[(0,33,'AUTOR')]}),
+("DANIELA LIBANEO",{"entities":[(0,15,'AUTOR')]}),
+("CAROLINE MINORELLI",{"entities":[(0,18,'AUTOR')]}),
+("DANIELA PASSOS",{"entities":[(0,14,'AUTOR')]}),
+("RITA CARELLI",{"entities":[(0,12,'AUTOR')]}),
+("MARIA ISABEL SILVA",{"entities":[(0,18,'AUTOR')]}),
+("ADMINISTRACAO",{"entities":[(0,13,'DISCIPLINA')]}),
+("ALEMAO",{"entities":[(0,6,'DISCIPLINA')]}),
+("Alfabetizacao Matematica",{"entities":[(0,24,'DISCIPLINA')]}),
+("ARTE",{"entities":[(0,4,'DISCIPLINA')]}),
+("Biologia",{"entities":[(0,8,'DISCIPLINA')]}),
+("SOCIOLOGIA",{"entities":[(0,10,'DISCIPLINA')]}),
+("ATICA",{"entities":[(0,5,'EDITORA')]}),
+("ALTA BOOKS",{"entities":[(0,10,'EDITORA')]}),
+("S.E. AGORA",{"entities":[(0,10,'EDITORA')]}),
+("BELEM ARTES GRAFICAS",{"entities":[(0,20,'EDITORA')]}),
+("TORCULO EDITORIAL",{"entities":[(0,17,'EDITORA')]}),
+("TEENAGER",{"entities":[(0,8,'EDITORA')]}),
+("ACATU",{"entities":[(0,5,'EDITORA')]}),
+("02 MATERIAIS O NATURAL E O FABRICADO",{"entities":[(0,36,'LIVRO')]}),
+("1000 LUGARES PARA CONHECER ANTES DE MORRER",{"entities":[(0,42,'LIVRO')]}),
+("1000 PERGUNTAS E RESPOSTAS SOBRE OS",{"entities":[(0,35,'LIVRO')]}),
+("1001 FANTASMAS",{"entities":[(0,14,'LIVRO')]}),
+("100 NUMEROS PARA SONHAR UM MUNDO DIF",{"entities":[(0,36,'LIVRO')]}),
+("100 TEXTOS DA HISTORIA ANTIGA",{"entities":[(0,29,'LIVRO')]}),
+("101 ATITUDES PARA O ESTUDO INTELIG",{"entities":[(0,34,'LIVRO')]}),
+("101 DALMATAS - O FILME",{"entities":[(0,22,'LIVRO')]}),
+("SABER E FAZER MATEMATICA 4 ANOS",{"entities":[(0,31,'LIVRO')]}),
+("SABER E FAZER MATEMATICA 5 ANOS",{"entities":[(0,31,'LIVRO')]}),
+("SABER E FAZER NATUREZA E SOCIEDADE 3 ANOS",{"entities":[(0,41,'LIVRO')]}),
+("SABER E FAZER NATUREZA E SOCIEDADE 4 ANOS",{"entities":[(0,41,'LIVRO')]}),
+("ZUMBI/ SAGA DE HEROIS",{"entities":[(0,21,'LIVRO')]}),
+("ZUM ZUM ZUM E OUTRAS POESIAS",{"entities":[(0,28,'LIVRO')]}),
+("ZUZA A ZEBRA / COL. AMIGOS DA SARACU",{"entities":[(0,36,'LIVRO')]}),
+("ZUZA A ZEBRA / COL. AMIGOS DO SARACU",{"entities":[(0,36,'LIVRO')]}),
+("ZUZA E ARQUIMEDES",{"entities":[(0,17,'LIVRO')]}),
+("ZZUUMMPT ZECA NA TERRA DA IMAGINACAO",{"entities":[(0,36,'LIVRO')]})
+]
