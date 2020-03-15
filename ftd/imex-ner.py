@@ -10,6 +10,7 @@ from spacy.util import minibatch, compounding
 import os
 
 from FTD_data import TRAIN_DATA_ALL
+from FTD_data2 import TRAIN_DATA_ALL_1M
 
 
 @plac.annotations(
@@ -91,8 +92,9 @@ def trainingNERModel (train_data=None, model=None, output_dir=None, n_iter=100):
 if __name__ == "__main__":
     current_path=os.getcwd()+"/imex-ner-2"
     print(current_path)
-    trainingNERModel(TRAIN_DATA_ALL, None, current_path, 100)
-    
+    trainingNERModel(TRAIN_DATA_ALL_1M, None, current_path, 100)
+
+    #trainingNERModel(TRAIN_DATA_ALL, None, current_path, 100)
     #trainingNERModel(TRAIN_DATA_AUTOR_1E, None, current_path, 100)
     #trainingNERModel(TRAIN_DATA_DISCIPLINA_1E, current_path, current_path, 100)
     #trainingNERModel(TRAIN_DATA_EDITORA_1E, current_path, current_path, 100)
